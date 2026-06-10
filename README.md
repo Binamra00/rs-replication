@@ -1,6 +1,6 @@
 # Replication Package: Re-evaluating Static Analysis Thresholds for Refactoring Prediction
 
-[![Open In Colab](https://colab.research.google.com/github/Binamra00/rs-replication/blob/main/inflection_analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Binamra00/rs-replication/blob/main/inflection_analysis.ipynb)
 [![DOI](https://zenodo.org/badge/DOI/20617639.svg)](https://doi.org/10.5281/zenodo.20617639)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
