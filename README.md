@@ -8,9 +8,9 @@
 > 
 > If you are looking for the **Raw Mining Infrastructure** (the Java/Python architecture used to orchestrate PMD and RefactoringMiner at scale across raw Git histories), please visit our primary tooling repository here: **https://github.com/Binamra00/rs-miners.git**
 
-This repository contains the complete, automated replication package for evaluating the predictive power of static analysis metrics (PMD) against structural refactoring ground truth (RefactoringMiner): `inflection_analysis.ipynb`. 
+This repository contains the complete, automated replication package for evaluating the predictive power of static analysis metrics (PMD) against structural refactoring ground truth (RefactoringMiner). 
 
-To ensure absolute transparency and ease of review, the entire methodology—from raw data ingestion to the final statistical diagnostics—has been compiled into a **single, zero-configuration Google Colab Notebook**.
+To ensure absolute transparency and ease of review, the entire methodology—from raw data ingestion to the final statistical diagnostics has been compiled into a **single, zero-configuration Google Colab Notebook**: `inflection_analysis.ipynb`.
 
 ## 🚀 One-Click Reproducibility
 
