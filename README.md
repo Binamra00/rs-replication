@@ -8,7 +8,7 @@
 > 
 > If you are looking for the **Raw Mining Infrastructure** (the Java/Python architecture used to orchestrate PMD and RefactoringMiner at scale across raw Git histories), please visit our primary tooling repository here: **https://github.com/Binamra00/rs-miners.git**
 
-This repository contains the complete, automated replication package for evaluating the predictive power of static analysis metrics (PMD) against structural refactoring ground truth (RefactoringMiner). 
+This repository contains the complete, automated replication package for evaluating the predictive power of static analysis metrics (PMD) against structural refactoring ground truth (RefactoringMiner): `inflection_analysis.ipynb`. 
 
 To ensure absolute transparency and ease of review, the entire methodology—from raw data ingestion to the final statistical diagnostics—has been compiled into a **single, zero-configuration Google Colab Notebook**.
 
@@ -30,7 +30,7 @@ To guarantee reproducibility, the raw structural snapshots (PMD) and ledger even
 
 ## 🛠️ Upstream Release Tag Mining (Included)
 
-While the main Colab notebook utilizes the pre-mined datasets from Zenodo to ensure deterministic reproducibility, we have also included our **Release Tag Mining Pipeline** scripts in this repository. 
+While the main Colab notebook utilizes the pre-mined datasets from Zenodo to ensure deterministic reproducibility, we have also included our **Release Tag Mining Pipeline**:`rel_tag_mining.ipynb` scripts in this repository. 
 
 These scripts demonstrate the exact methodology used to scrape the GitHub API, filter for stable official releases, and generate the chronological targeting ledgers (`rel_hist_[REPO_NAME].json`) that fed our upstream static analysis cluster.
 
