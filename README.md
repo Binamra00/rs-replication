@@ -4,6 +4,10 @@
 [![DOI](https://zenodo.org/badge/DOI/20617639.svg)](https://doi.org/10.5281/zenodo.20617639)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+> ⚠️ **IMPORTANT NOTE:** This repository contains the **Analytical Replication Package** (the Google Colab/Jupyter pipeline used to engineer the matrices, calibrate thresholds, and generate the final tables for the paper). 
+> 
+> If you are looking for the **Raw Mining Infrastructure** (the Java/Python architecture used to orchestrate PMD and RefactoringMiner at scale across raw Git histories), please visit our primary tooling repository here: **https://github.com/Binamra00/rs-miners.git**
+
 This repository contains the complete, automated replication package for evaluating the predictive power of static analysis metrics (PMD) against structural refactoring ground truth (RefactoringMiner). 
 
 To ensure absolute transparency and ease of review, the entire methodology—from raw data ingestion to the final statistical diagnostics—has been compiled into a **single, zero-configuration Google Colab Notebook**.
@@ -23,6 +27,12 @@ To guarantee reproducibility, the raw structural snapshots (PMD) and ledger even
 
 * **Zenodo Archive:** [Link to your Zenodo Record]
 * **Target Repositories:** Apache `commons-lang` (default), configurable to other ingested projects.
+
+## 🛠️ Upstream Release Tag Mining (Included)
+
+While the main Colab notebook utilizes the pre-mined datasets from Zenodo to ensure deterministic reproducibility, we have also included our **Release Tag Mining Pipeline** scripts in this repository. 
+
+These scripts demonstrate the exact methodology used to scrape the GitHub API, filter for stable official releases, and generate the chronological targeting ledgers (`rel_hist_[REPO_NAME].json`) that fed our upstream static analysis cluster.
 
 ## 🧩 Pipeline Architecture
 
