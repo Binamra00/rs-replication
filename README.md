@@ -45,8 +45,7 @@ The replication notebook is strictly strictly separated into 7 logical phases to
   * `T.2`: True Chronological Split (Time-travel defense).
 * **Phase 3: Threshold Calibration.** Multi-percentile mathematical sweeps across training folds to derive F1 and F0.5 optimized thresholds, guarded by strict statistical reliability checks.
 * **Phase 4: Blind Predictability Evaluation.** Tests the derived thresholds against completely unseen holdout matrices.
-* **Phase 5: Alert Fatigue Analysis.** Exposes the raw operational reality (TP vs. FP counts) of single-metric thresholds, demonstrating the high volume of wasted alerts.
-* **Phase 6: Master Cross-Regime Discrimination Diagnostic.** Calculates the Area Under the Precision-Recall Curve (AUC-PR) across all regimes to mathematically prove the absolute limits of single-metric discrimination, independent of thresholding.
+* **Phase 5: Master Cross-Regime Discrimination Diagnostic.** Calculates the Area Under the Precision-Recall Curve (AUC-PR) across all regimes to mathematically prove the absolute limits of single-metric discrimination, independent of thresholding.
 
 ## 💻 Local Execution (Optional)
 
