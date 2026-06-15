@@ -69,7 +69,7 @@ If you use this dataset or pipeline in your research, please cite our Zenodo arc
 ```bibtex
 @dataset{smell_ranker_data_2024,
   author       = {Binamra Aryal},
-  title        = {Replication Data for: Why Single-Metric Code-Smell Thresholds Fail to Forecast Refactoring},
+  title        = {Replication Data: Re-evaluating Static Analysis Thresholds for Refactoring Prediction},
   month        = {June},
   year         = {2026},
   publisher    = {Zenodo},
