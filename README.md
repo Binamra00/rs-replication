@@ -1,7 +1,7 @@
 # Replication Package: Re-evaluating Static Analysis Thresholds for Refactoring Prediction
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Binamra00/rs-replication/blob/main/inflection_analysis.ipynb)
-[![DOI](https://zenodo.org/badge/DOI/20617639.svg)](https://doi.org/10.5281/zenodo.20617639)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20617639.svg)](https://doi.org/10.5281/zenodo.20617639)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > ⚠️ **IMPORTANT NOTE:** This repository contains the **Analytical Replication Package** (the Google Colab/Jupyter pipeline used to engineer the matrices, calibrate thresholds, and generate the final tables for the paper). 
@@ -67,7 +67,7 @@ If you prefer to run the notebook locally via Jupyter rather than Google Colab:
 If you use this dataset or pipeline in your research, please cite our Zenodo archive directly:
 
 ```bibtex
-@dataset{smell_ranker_data_2024,
+@dataset{aryal2026replication,
   author       = {Binamra Aryal},
   title        = {Replication Data: Re-evaluating Static Analysis Thresholds for Refactoring Prediction},
   month        = {June},
