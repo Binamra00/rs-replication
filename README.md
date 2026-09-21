@@ -1,5 +1,5 @@
 # Replication Package: Single-Metric Size and Complexity Thresholds Fail to Forecast Refactoring
-*Official replication package for our SPLASH/ISSTA 2026 SRC paper SPLASH/ISSTA 2026:* [Read Here](https://conf.researchr.org/details/issta-2026/splash-issta-2026-student-research-competition/3/Single-Metric-Size-and-Complexity-Thresholds-Fail-to-Forecast-Refactoring).
+*Official replication package for our SPLASH/ISSTA 2026 SRC paper:* [Read Here](https://conf.researchr.org/details/issta-2026/splash-issta-2026-student-research-competition/3/Single-Metric-Size-and-Complexity-Thresholds-Fail-to-Forecast-Refactoring).
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Binamra00/rs-replication/blob/main/inflection_analysis.ipynb)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20617639-blue)](https://doi.org/10.5281/zenodo.20617639)
