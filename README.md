@@ -3,7 +3,8 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Binamra00/rs-replication/blob/main/inflection_analysis.ipynb)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20617639-blue)](https://doi.org/10.5281/zenodo.20617639)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-🔗[Read the Paper Here][SPLASH/ISSTA 2026: Single-Metric Size and Complexity Thresholds Fail to Forecast Refactoring](https://conf.researchr.org/details/issta-2026/splash-issta-2026-student-research-competition/3/Single-Metric-Size-and-Complexity-Thresholds-Fail-to-Forecast-Refactoring)
+
+> *Official replication package for our SPLASH/ISSTA 2026 SRC paper SPLASH/ISSTA 2026: Single-Metric Size and Complexity Thresholds Fail to Forecast Refactoring:* [Read the Paper Here](https://conf.researchr.org/details/issta-2026/splash-issta-2026-student-research-competition/3/Single-Metric-Size-and-Complexity-Thresholds-Fail-to-Forecast-Refactoring).
 
 > ⚠️ **IMPORTANT NOTE:** This repository contains the **Analytical Replication Package** (the Google Colab/Jupyter pipeline used to engineer the matrices, calibrate thresholds, and generate the final tables for the paper). 
 > 
